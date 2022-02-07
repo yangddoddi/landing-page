@@ -1,0 +1,25 @@
+/* global setting */
+
+:root {
+  /* font size */
+  --font-Xsmall: 12px;
+  --font-small: 14px;
+  --font-base: 16px;
+  --font-large: 18px;
+  --font-Xlarge: 20px;
+  --font-header: 32px;
+
+  /* color */
+  --color-white: #ffffff;
+  --color-skyblue-background: #4b97dc;
+  --color-blue-background: #4e61bf;
+  --color-button-background: #444446;
+  --color-snslogo-background: rgb(78, 97, 191);
+
+  /* font weight */
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
