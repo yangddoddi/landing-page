@@ -23,3 +23,35 @@
   --font-weight-medium: 500;
   --font-weight-bold: 700;
 }
+
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: var(--font-header);
+}
+
+h2 {
+  font-size: var(--font-large);
+}
+
+h3 {
+  font-size: var(--font-small);
+  font-weight: var(--font-weight-regular);
+}
+
+p {
+  font-size: var(--font-weight-regular);
+}
+
+button {
+  background-color: var(--color-button-background);
+  color: var(--color-white);
+  padding: 12px 15px;
+  border-radius: 7%;
+}
