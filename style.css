@@ -71,6 +71,10 @@ button {
   appearance: none;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 .apps {
   position: relative;
   background: linear-gradient(#4b97dc, #4e61bf);
@@ -97,9 +101,10 @@ button {
   padding: 50px;
   background-color: var(--color-blue-background);
   width: 100%;
-  height: 350px;
+  height: 30px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   color: var(--color-white);
 }
@@ -107,6 +112,7 @@ button {
 .services__list {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -210,6 +216,7 @@ button {
 footer {
   padding: 30px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .snsicons {
@@ -225,4 +232,77 @@ footer {
   border-radius: 50%;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+
+  .apps p {
+    text-align: center;
+  }
+
+  .apps img {
+    width: 200px;
+    position: relative;
+    left: 0px;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .showportfolio {
+    padding: 70px;
+  }
+
+  .showportfolio button {
+    margin-top: 20px;
+  }
+
+  .services {
+    height: 520px;
+    padding: 30px;
+  }
+
+  .services__list {
+    flex-direction: column;
+  }
+
+  .services__list.top {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .services__list.bottom {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .services__list__item {
+    margin: 20px;
+  }
+
+  .portfolio__list.top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio__list.bottm {
+    flex-direction: column;
+    align-items: center;
+  }
 }
