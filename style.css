@@ -53,6 +53,11 @@ p {
   font-weight: var(--font-weight-light);
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
 button {
   background-color: var(--color-button-background);
   color: var(--color-white);
@@ -200,4 +205,24 @@ button {
 .portfolio__list__item:hover .portfolio__list__item--overlay {
   border: 10px white solid;
   transition: 300ms ease-out all;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+}
+
+.snsicons {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.snsicons i {
+  background-color: var(--color-blue-background);
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
