@@ -1,4 +1,4 @@
-# landing-page clone coding
+# landing-page
 
 gif ⬇️
 
